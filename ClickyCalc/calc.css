@@ -1,0 +1,51 @@
+/*
+    Document   : calc.css
+    Created on : 2015-06-08 05:25 PM
+    Author     : asanchez-ep
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+body{
+	background-image: url("http://www.artinaid.com/wp-content/uploads/2013/02/Galaxia-y-Espacio-Exterior.jpg");
+}
+
+
+#display{
+    background-color: #C0C0C0;
+ 	width:center;  /*180*/
+	height: 50px;
+	border: 1px solid black;
+	margin-bottom: 5px;
+	text-align:right;
+}
+
+.row{
+    
+}
+
+#calculator{
+  border: 5px solid black;
+  margin-right: 80%;
+  background-color: #503E4E;
+}
+
+.button{
+	background-color: #EEDE05;
+	display:inline-block;
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+	text-align:center;
+	transition: all 0.5s ease;
+}
+
+.button:hover{
+	background-color: #C97B06;
+}
+
+
+.opp{
+	background-color: #C93A06;
+}

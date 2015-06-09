@@ -1,0 +1,375 @@
+/*
+    Document   : webpagestyle.css
+    Created on : 2015-06-08 04:34 PM
+    Author     : asanchez-ep
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+body{
+    background-image: url("http://media-cache-ak0.pinimg.com/736x/15/34/b3/1534b32a8fa89225432aa8c52e2111d9.jpg");
+}  
+
+/*Index page css*/
+/*Header of index page*/
+h3{
+    text-align:center;
+    font-size:70px;
+    font-family: inherit;
+    color: #333333;
+    background-color:#FF3333;
+    margin-bottom: 0;
+}
+
+/*navigation bar on index page*/
+#navbar {
+    margin-top:10px;
+    left: 45%;
+    text-align:center;
+}
+/*header on index page*/
+#header {
+    position:relative;
+    top: -15px;
+    background-color:#333333;
+}
+ul{
+    list-style-type:none;
+
+    position:relative;
+    margin:10px;
+}
+
+/*The List itself*/
+li{
+    display:inline;
+    padding:30px;
+    font-family:Garamond;
+    font-size:25px;
+    transition:all .3s ease;
+}
+
+li:hover{
+    transform:rotateZ(360deg);
+    font-size:35px;
+}
+
+/*Unvisited link*/
+a:link{
+    color: #f8f8f8;
+    text-decoration:none;
+}
+
+/*visited link*/
+a:visited{
+    color: #f8f8f8 ;
+}
+
+/*mouse over link*/
+a:hover{
+   color:#00ccff;
+}
+
+.active{
+    background-color: #ff3333;
+    opacity: .9;
+
+}
+
+#indexText{
+    height:1250px;
+    width:1050px;
+    border: 2px solid #00ccff;
+    background-color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: .94;
+}
+
+#welcBox{
+    height:200px;
+    width:600px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+/*Image with people & everest*/
+img{
+    height:220px;
+    width:330px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#introBox{
+    height:200px;
+    width: 650px;
+    border-radius: 10px;
+    background-color: black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container {
+    margin: 25px 20px;
+}
+
+#mainP {
+    height:200px;
+    width: 650px;
+    border-radius: 10px;
+    background-color: black;
+    display: inline-block;
+}
+
+#overView{
+    height:200px;
+    width:600px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-left: auto;
+    margin-right:auto;
+    position: relative;
+    margin-top: 10px;
+}
+
+/*About me page css*/
+#introAle{
+    height:250px;
+    width:600px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+    margin-left:auto;
+} 
+
+#books{
+    height:220px;
+    width: 650px;
+    border-radius: 10px;
+    background-color: black;
+    display: inline-block;
+    
+}
+
+.aboutTable img {
+    border:1px #70b8ff solid;
+    height:215px;
+    width:215px;
+    margin: auto;
+    display: inline-block;
+}
+
+#hobbies {
+    height:657px;
+    width:290px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    position: relative;
+    margin-top: 27px;
+    display: inline-block;
+}
+
+/* css for hardware page*/
+#computer{
+    height:115px;
+    width:600px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+/*table on hardware page*/
+.lamp img{
+    margin: auto;
+    display: inline-block;
+    height:210px;
+    width:210px;
+}
+
+.lamp{
+    border:1px #70b8ff solid;
+    margin: auto;
+    display: inline-block;
+    color:#00ccff;
+    font-size:15px;
+}
+
+/*HTML Page*/
+#HTMLText{
+    height:2000px;
+    width:1050px;
+    border: 2px solid #00ccff;
+    background-color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: .94;
+}
+
+
+#htmlBox{
+    height:130px;
+    width:755px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+.grape img{
+    margin: auto;
+    display: inline-block;
+    height:160px;
+    width:330px;
+}
+
+.grape{
+    border:1px #70b8ff solid;
+    margin: auto;
+    display: inline-block;
+    color:#00ccff;
+    font-size:15px;
+}
+
+#css{
+    height:135px;
+    width:755px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+.carrot img{
+    margin: auto;
+    display: inline-block;
+    height:160px;
+    width:330px;
+}
+
+.carrot{
+    border:1px #70b8ff solid;
+    margin: auto;
+    display: inline-block;
+    color:#00ccff;
+    font-size:15px;
+    background-color:black;
+}
+
+#tags{
+    height:130px;
+    width:755px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+.pie img{
+    margin: auto;
+    display: inline-block;
+    height:190px;
+    width:330px;
+}
+
+.pie{
+    border:1px #70b8ff solid;
+    margin: auto;
+    display: inline-block;
+    color:#00ccff;
+    font-size:15px;
+    background-color:black;
+}
+
+#att{
+    height:100px;
+    width:755px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+    margin-left:auto;
+}
+.hay img{
+    margin: auto;
+    display: inline-block;
+    height:190px;
+    width:330px;
+}
+
+.hay{
+    border:1px #70b8ff solid;
+    margin: auto;
+    display: inline-block;
+    color:#00ccff;
+    font-size:15px;
+    background-color:black;
+}
+
+.dots img{
+    margin: auto;
+    display: inline-block;
+    height:200px;
+    width:250px;
+}
+
+.dots{
+    border:1px #70b8ff solid;
+    margin: auto;
+    display: inline-block;
+    color:#00ccff;
+    font-size:15px;
+    background-color:#ff3333;
+    text-align:center;
+}
+
+#vindinium{
+    height:130px;
+    width:600px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+/*     margin-left:auto; */
+}
+
+.vtournament img{
+    height: 350px;
+    width: 600px;
+}
+
+#botAsanz{
+    height:700px;
+    width:600px;
+    border-radius: 10px;
+    background-color: black;
+/*     margin-left: auto;*/
+    margin-right: auto;
+/*     display: inline-block; */
+    margin-top: 380px;
+}
+
+.vindBots img{
+/*     margin-left: auto;*/
+    width: 200 px;
+} 
+
+/*Selects first child --> the title */
+ div > p:first-child{
+    font-size: 20px;
+    color: #00ccff;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*Selects the second child--> actual text */
+div > p:nth-child(2){
+    font-size: 15px;
+    color: #00ccff;
+    text-align: center;
+}
+
+
+
