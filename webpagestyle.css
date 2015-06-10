@@ -15,7 +15,7 @@ body{
 /*Header of index page*/
 h3{
     text-align:center;
-    font-size:70px;
+    font-size:60px;
     font-family: inherit;
     color: #333333;
     background-color:#FF3333;
@@ -52,7 +52,7 @@ li{
 
 li:hover{
     transform:rotateZ(360deg);
-    font-size:35px;
+    font-size:33px;
 }
 
 /*Unvisited link*/
@@ -326,8 +326,17 @@ img{
     text-align:center;
 }
 
+#vindPage{
+    height:1350px;
+    width:1050px;
+    border: 2px solid #00ccff;
+    background-color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: .94;
+}
 #vindinium{
-    height:130px;
+    height:190px;
     width:600px;
     border-radius: 10px;
     background-color: #FF3333;
@@ -336,20 +345,30 @@ img{
 }
 
 .vtournament img{
-    height: 350px;
+    height: 400px;
     width: 600px;
 }
 
 #botAsanz{
-    height:700px;
-    width:600px;
+    height:400px;
+    width:390px;
     border-radius: 10px;
     background-color: black;
-/*     margin-left: auto;*/
-    margin-right: auto;
+    margin-left: auto;
+/*     margin-right: auto; */
 /*     display: inline-block; */
-    margin-top: 380px;
+    margin-top: -210px;
 }
+#asanzHow{
+    height: 300px;
+    width: 1000px;
+    border-radius: 10px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 215px;
+/*   margin-top: -970px; */
+ } 
 
 .vindBots img{
 /*     margin-left: auto;*/
@@ -370,6 +389,26 @@ div > p:nth-child(2){
     color: #00ccff;
     text-align: center;
 }
-
-
-
+#thanksPage{
+    height:900px;
+    width:1050px;
+    border: 2px solid #00ccff;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: .94;   
+}
+#thanks{
+    font-size: 150px;
+    color: white;
+    text-decoration: none;
+    margin-top: -10px;
+   text-shadow:    0 0 10px #fff,
+                   0 0 20px #00FF00,
+                   0 0 30px #00FF00,
+                   0 0 40px #CCFF00,
+                   0 0 70px #00FF00,
+                   0 0 80px #00FF00,
+                   0 0 100px #00FF00,
+                   0 0 150px #00FF00;
+}
